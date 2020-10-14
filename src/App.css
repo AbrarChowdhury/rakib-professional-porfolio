@@ -27,3 +27,19 @@ a:hover{
 .hoverable{
   cursor: pointer !important;
 }
+
+@media (max-width : 750px) {
+  .sideBarInfo{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: #18191A;
+    margin-bottom: 20px;
+    margin-left:  0%;
+  }
+  .area{
+    display:grid;
+    grid-template-columns: 0fr 1fr;
+    grid-gap: 2vw;
+  }
+}
