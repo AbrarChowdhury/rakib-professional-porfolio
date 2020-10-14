@@ -9,7 +9,7 @@ function Gallery()
         <div>
         <hr/>
 
-            <h2 className='right-align'>Print Ads</h2>
+            <h5 className='right-align'>Print Ads</h5>
             
             
             <div className = "row">
@@ -18,7 +18,7 @@ function Gallery()
                 }
             </div>
         <hr/>
-            <h2 className='right-align'>TVCs</h2>
+            <h5 className='right-align'>TVCs</h5>
             <div className = "row">
                 {
                     tvcs.map((data => <Card {...data}/>))
