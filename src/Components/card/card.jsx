@@ -3,6 +3,7 @@ import Modal from 'react-modal'
 import './card.styles.css'
 
 Modal.setAppElement('#root')
+
 function Card({ image, title, video}) {
     const [modalIsOpen, setModalIsOpen] = useState(false)
     const customStyle={
