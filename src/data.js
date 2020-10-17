@@ -117,7 +117,74 @@ const prints = [
         image:'/print/bl-8.jpeg',
         title:'Banglalink'
     },
-        
+    {
+        image:'/print/r0.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r1.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r2.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r3.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r4.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r5.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r6.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r7.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r8.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r9.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r10.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r11.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/r12.jpeg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/rongdhanu 2.jpg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/rongdhanu water.jpg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/Rongdhanu.jpg',
+        title:'Rangdhonu'
+    },
+    {
+        image:'/print/rongdhanu0.jpg',
+        title:'Rangdhonu'
+    },   
     {
         image:'/print/bank asia.jpg',
         title:'Bank Asia'
@@ -153,22 +220,6 @@ const prints = [
     {
         image:'/print/bombay sweets.jpg',
         title:'Bombay Sweets'
-    },
-    {
-        image:'/print/rongdhanu 2.jpg',
-        title:'Rangdhonu'
-    },
-    {
-        image:'/print/rongdhanu water.jpg',
-        title:'Rangdhonu'
-    },
-    {
-        image:'/print/Rongdhanu.jpg',
-        title:'Rangdhonu'
-    },
-    {
-        image:'/print/rongdhanu0.jpg',
-        title:'Rangdhonu'
     },
     {
         image:'/print/SAML ceo.png',

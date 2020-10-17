@@ -6,10 +6,7 @@ function SideBar() {
         <div className='side-bar'>
         <img className='profile-pic' src="/dp.jpeg" alt="rakibul hasan chowdhury"/>
             <h3 className = "name">Rakib Hasan Chowdhury</h3>
-            <p className='about'>I am a curious person, always love to explore and
-            learn, even from the simplest things. I possess the quality of working fruitfully maintaining effective
-            communication under pressure and challenging
-            conditions.
+            <p className='about'>Dedicated professional with 6 years of active marketing experience. Looking to bring my marketing experience in developing and executing marketing strategies with the unique ability to understand the ongoing market scenario and customers trends using exceptional marketing communication skills.
             </p>
             <br/>
             <Contacts/>
