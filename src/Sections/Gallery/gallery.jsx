@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from '../../Components/card/card'
-import { tvcs, prints, ronghonu, apex, rfl, shanta, summit, others, banglalink} from '../../data'
+
+import { ronghonu, apex, rfl, shanta, summit, others, banglalink} from '../../data'
 import BrandGroup from '../../Components/brandGroup/BrandGroup'
 import { Container } from '@mui/material'
 function Gallery()
