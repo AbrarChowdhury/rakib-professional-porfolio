@@ -8,7 +8,6 @@ function Card({ image, title, video}) {
     const handleClose = () => setOpen(false)
     return (
         <div className="wrapper">
-        <Card>
             <MaterialCard>
             {
                 video ?
@@ -22,7 +21,6 @@ function Card({ image, title, video}) {
             <Modal open={ open } onClose={handleClose} style={{ display:"flex"}}>
                 <img className="modal-image" src={image} alt={title} style={{ margin:"0 auto"}} onDoubleClick={handleClose}/>
             </Modal>
-        </Card>
         </div>    
     )
 }
