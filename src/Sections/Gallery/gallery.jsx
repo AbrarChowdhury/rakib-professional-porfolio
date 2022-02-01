@@ -1,14 +1,13 @@
 import React from 'react'
 import Card from '../../Components/card/card'
 import { tvcs, prints} from '../../data'
-import Navbar from '../NavBar/navbar'
+
 
 function Gallery() 
     {
     return (
         <div>
-        <Navbar /> 
-            
+            <h1>My Work</h1>   
             <div id="print"></div>
             <hr/>
             <h5 className='right-align'>Print Ads</h5>    

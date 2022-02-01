@@ -4,17 +4,5 @@ nav{
     background: #18191A!important;
     z-index: 100!important;
     top: 0;
-    margin-left: 10px;
-}
-hr{
-    margin-top:70px!important;
-    margin-left: 10px;
 }
 
-@media (max-width : 750px){
-    nav{
-        width: 100vw!important;
-        left: 0!important;
-        margin-left: 0!important;
-    }
-}

@@ -4,21 +4,7 @@
   padding: 5%;
   padding-top: 0;
 }
-.sideBarInfo{
-  width: 30.3%;
-  height: 100vh;
-  display: inline-block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  margin-left:  3%;
-  background-color: #02020288;
-}
-.area{
-  display:grid;
-  grid-template-columns: 4fr 8fr;
-  grid-gap: 2vw;
-}
+
 a{
   color: white !important;
 }
