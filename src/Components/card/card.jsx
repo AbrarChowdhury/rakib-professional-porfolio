@@ -38,7 +38,7 @@ function Card({ image, title, video}) {
                 <div className="box  col s12 m6 l4">
                     <div className="card medium hoverable">
                         <div className="card-image">
-                            <img onClick={ () => setModalIsOpen(true)} src={image}/>
+                            <img onClick={ () => setModalIsOpen(true)} src={image} alt=""/>
                         </div>
                         <div className="card-content">
                             <h5>{title}</h5>
