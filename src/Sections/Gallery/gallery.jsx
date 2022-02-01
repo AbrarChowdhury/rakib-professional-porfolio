@@ -1,31 +1,23 @@
 import React from 'react'
 import Card from '../../Components/card/card'
-import { tvcs, prints} from '../../data'
-
-
+import { tvcs, prints, ronghonu, apex, rfl, shanta, summit, others, banglalink} from '../../data'
+import BrandGroup from '../../Components/brandGroup/BrandGroup'
+import { Container } from '@mui/material'
 function Gallery()
     {
     return (
-			<div>
+			<Container>
 				<h1>My Work</h1>
-				<div id="print"></div>
-				<hr/>
-				<h5 className='right-align'>Print Ads</h5>
-				<div className = "row">
-					{
-						prints.map((data => <Card {...data}/>))
-					}
-				</div>
-
-				<div id="tvc"></div>
-				<hr/>
-				<h5 className='right-align'>TVCs</h5>
-				<div className = "row">
-					{
-						tvcs.map((data => <Card {...data}/>))
-					}
-				</div>
-			</div>
+				<hr />
+				<BrandGroup brand="Apex" data={apex}/>
+				<BrandGroup brand="BanglaLink" data={banglalink}/>
+				<BrandGroup brand="Rangdhonu" data={ronghonu}/>
+				<BrandGroup brand="RFL" data={rfl}/>
+				<BrandGroup brand="Summit" data={summit}/>
+				<BrandGroup brand="Shanta" data={shanta}/>
+				<BrandGroup brand="Others" data={others}/>
+			
+			</Container>
     )
 }
 

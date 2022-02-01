@@ -1,57 +1,26 @@
-import React, { useState } from 'react'
-import Modal from 'react-modal'
+import React, { Fragment, useState } from 'react'
+import {Card as MaterialCard ,CardMedia, Modal} from '@mui/material/';
 import './card.styles.css'
 
-Modal.setAppElement('#root')
-
 function Card({ image, title, video}) {
-    const [modalIsOpen, setModalIsOpen] = useState(false)
-    const customStyle={
-        overlay:{
-            backgroundColor: 'rgba(0,0,0,0.5)'
-        },
-        content:{
-            borderRadius: '4px',
-            background: 'rgba(20,20,20,.8)',
-            padding: '0',
-            border: 'none'
-
-        }
-    }
+    const [open, setOpen] = useState(false)
+    const handleOpen = () => setOpen(true)
+    const handleClose = () => setOpen(false)
     return (
         <div className="wrapper">
-            
+            <MaterialCard>
             {
                 video ?
-                <div className="box  col s12 m6 l6"> 
-                    <div className="card large hoverabl">
-                        <video width='100%' height='auto' controls poster={image}>
-                            <source src={video} type='video/mp4' />
-                        </video>
-                        <div className="card-content">
-                            <h5>{title}</h5>
-                        </div>
-                    </div>
-                </div>
-                
+                <video width='100%' height='auto' controls poster={image}>
+                    <source src={video} type='video/mp4' />
+                </video>        
                 : 
-                <div className="box  col s12 m6 l4">
-                    <div className="card medium hoverable">
-                        <div className="card-image">
-                            <img onClick={ () => setModalIsOpen(true)} src={image} alt=""/>
-                        </div>
-                        <div className="card-content">
-                            <h5>{title}</h5>
-                        </div>
-                        <Modal isOpen={ modalIsOpen } onRequestClose={()=>setModalIsOpen(false)} style={ customStyle }>
-                            <div className="modal-div">
-                                <img className="modal-image" src={image} alt={title}/>
-                            </div>    
-                        </Modal>
-                    </div>
-                </div> 
+                <CardMedia image={image} component="img" alt="" height="300" onClick={handleOpen}/>
             }
-            
+            </MaterialCard>
+            <Modal open={ open } onClose={handleClose} style={{ display:"flex"}}>
+                <img className="modal-image" src={image} alt={title} style={{ margin:"0 auto"}} onDoubleClick={handleClose}/>
+            </Modal>
         </div>    
     )
 }
