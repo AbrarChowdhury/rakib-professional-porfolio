@@ -441,6 +441,31 @@ const banglalink = [
         image:'/print/bl-8.jpeg',
         title:'Banglalink'
     },
+    {   
+        video:'/tvc/banglalink-desh-9.mp4',
+        image: '/tvc/thumbnail/Banglalink-Desh9.jpg',
+        title: 'BanglaLink Desh 9'
+    },
+    {
+        video:'/tvc/banglalink-bundle.mp4',
+        image: '/tvc/thumbnail/Banglalink- bundle.jpg',
+        title: 'BanglaLink Bundle Offer'
+    },
+    {
+        video:'/tvc/banglalink-react.mp4',
+        image: '/tvc/thumbnail/Banglalink-reactivation.jpg',
+        title: 'BanglaLink Reactivation'
+    },
+    {
+        video:'/tvc/banglalink-Offer.mp4',
+        image: '/tvc/thumbnail/Banglalink- offer.jpg',
+        title: 'BanglaLink Offer'
+    },
+    {
+        video:'/tvc/Banglalink Friendship TVC.mp4',
+        image: '/tvc/thumbnail/bl-frnd.jpg',
+        title: 'BanglaLink Friendship'
+    },
 ]
 
 const rfl= [
